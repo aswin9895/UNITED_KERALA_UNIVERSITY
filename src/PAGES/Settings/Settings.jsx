@@ -265,7 +265,7 @@ const Settings = () => {
                 {errors.file && <p className={styles.errorMessage}>{errors.file.message}</p>}
 
 
-                <div className="mt-1 w-50">
+                <div className={`mt-1 ${styles.settingsInput}`}>
                   <button type="submit" className={`me-3 ${styles.actionBtn}`}>Upload</button>
                   <button type="button" className={`${styles.actionBtn} ${styles.cancelBtn}`} onClick={handleCancel}>
                     Cancel
