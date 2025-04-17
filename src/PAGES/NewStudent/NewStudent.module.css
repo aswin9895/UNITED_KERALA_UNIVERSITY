@@ -1,0 +1,195 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+/* back to students  */
+.backStudents {
+    text-decoration: none;
+    color: #333333;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.newStudentHeading {
+    font-size: 32px;
+    font-weight: normal;
+    color: black;
+    margin-top: 15px
+}
+
+label {
+    font-size: 16px;
+    margin: 10px 0px;
+    color: black;
+    font-weight: normal;
+}
+
+/* inputs common styles */
+input,
+select {
+    width: 80%;
+    padding: 8px 15px;
+    color: black;
+    border: 1px solid #B8B8B8;
+    font-size: 16px;
+}
+
+.rollInput {
+    width: 80%;
+    background-color: #F7F7F7;
+}
+
+.joinDate {
+    width: 80%;
+}
+
+.actionBtn {
+    margin-top: 4%;
+    background-color: #333333;
+    color: white;
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: normal;
+    transition: 0.3s;
+}
+
+.actionBtn:hover {
+    background-color: rgb(0, 0, 0);
+    transform: scale(1.05);
+    border-radius: 10px;
+}
+
+.cancelBtn {
+    background-color: rgba(128, 128, 128, 0.174);
+    color: black;
+    border: 1px solid #B8B8B8;
+    padding: 8px 18px;
+}
+
+.cancelBtn:hover {
+    background-color: rgba(128, 128, 128, 0.364);
+    color: white;
+    border-color: gray;
+}
+
+/* imgage */
+.imgDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: solid 1px; */
+}
+
+.newStudentLogo {
+    width: auto;
+}
+
+.errorMessage {
+    color: red;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+
+.logoutButton {
+    background-color: rgba(0, 0, 0, 0.795);
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    float: right;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.logoutButton:hover {
+    background-color: rgb(5, 5, 5);
+}
+
+.settingsInput {
+    width: 50%;
+}
+
+.loaderDiv {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.loader {
+    width: 5%;
+    padding-top: 30px;
+}
+
+/* Responsive Styles */
+@media (max-width:900px) {
+
+    .rollInput,
+    .joinDate {
+        width: 100%;
+    }
+
+    .actionBtn,
+    .cancelBtn {
+        width: 100%;
+        text-align: center;
+    }
+
+    select {
+        width: 100%;
+    }
+
+    .settingsInput {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .imgDiv {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .row {
+        text-align: left;
+    }
+
+    input,
+    select {
+        width: 100%;
+    }
+
+    .settingsInput {
+        width: 100%;
+    }
+
+    .actionBtn,
+    .cancelBtn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

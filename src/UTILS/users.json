@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Admin",
+        "email": "admin@gmail.com",
+        "password": "admin123",
+        "role": "admin"
+    },
+    {
+        "name": "Aswin",
+        "email": "aswin@gmail.com",
+        "password": "aswin123",
+        "role": "representative"
+    },
+    {
+        "name": "Hari",
+        "email": "hari@gmail.com",
+        "password": "hari123",
+        "role": "representative"
+    },
+    {
+        "name": "Max",
+        "email": "max@gmail.com",
+        "password": "max123",
+        "role": "representative"
+    },
+    {
+        "name": "Luci",
+        "email": "luci@gmail.com",
+        "password": "luci123",
+        "role": "representative"
+    },
+    {
+        "name": "Meriya",
+        "email": "meriya@gmail.com",
+        "password": "meriya123",
+        "role": "representative"
+    }
+]

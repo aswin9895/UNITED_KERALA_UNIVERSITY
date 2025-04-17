@@ -1,0 +1,147 @@
+body {
+    background-color: rgb(244, 247, 252);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* nav styles */
+.headerLogo {
+    padding: 0 8px;
+}
+
+.universityName {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 18px;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+/* login form  */
+.loginContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+}
+
+.LoginLogo {
+    max-width: 80%;
+    height: auto;
+    opacity: 0.9;
+}
+
+.formWrapper {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+}
+
+.LoginHeading {
+    font-size: 35px;
+    color: rgb(26, 15, 145);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.inputContainer {
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.loginInput {
+    width: 100%;
+    padding: 12px 15px 12px 45px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.loginInput:focus {
+    border-color: #1A0F91;
+    box-shadow: 0 0 8px rgba(26, 15, 145, 0.2);
+}
+
+.inputLogo {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #1A0F91;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+}
+
+.errorMessage{
+    position: absolute;
+    left: 0;
+    color: red;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+
+.LoginBtn {
+    margin: 8px 0 0 0;
+    width: 100%;
+    background-color: #1A0F91;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    padding: 12px;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+}
+
+.LoginBtn:hover {
+    background-color: #140d6d;
+    box-shadow: 0 4px 10px rgba(26, 15, 145, 0.3);
+}
+
+.Forgotpassword {
+    display: block;
+    color: #1A0F91;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.Forgotpassword:hover {
+    color: #140d6d;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .formWrapper {
+        width: 90%;
+        padding: 30px;
+    }
+
+    .LoginHeading {
+        font-size: 30px;
+    }
+
+    .loginInput {
+        font-size: 14px;
+        padding: 10px 12px 10px 40px;
+    }
+
+    .LoginBtn {
+        font-size: 16px;
+    }
+
+    .LoginLogo {
+        max-width: 70%;
+    }
+}

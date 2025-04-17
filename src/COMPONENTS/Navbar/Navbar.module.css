@@ -1,0 +1,113 @@
+.headerLogo {
+    padding: 0 8px;
+}
+
+.universityName {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 18px;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+.navItem {
+    transition: 0.5s;
+}
+
+.active {
+    background-color: orange !important;
+}
+
+.navItem:hover {
+    background-color: rgba(128, 128, 128, 0.473);
+    transform: scale(1.05);
+    margin: 0px 15px;
+}
+
+.navLink {
+    font-size: 16px;
+    color: black;
+    text-align: left;
+    font-weight: normal;
+    padding-left: 10px;
+}
+
+.profileLogo {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid #707070;
+    margin-right: 10px;
+}
+
+.togglerButton{
+    border-width:4px;
+    border-radius:8px ;
+    padding:8px 15px;
+    text-align:center;
+    font-weight:900;
+}
+
+/* sidebar */
+
+.sidebar {
+    min-height: 100vh;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    background-color: #F7F7F7;
+}
+
+/* sidebar logo and name */
+.sidebarHomeLink {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-top: 20px;
+    cursor: default;
+}
+
+/* sidebar nav links arrangement */
+.siderbarAlign {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 85%;
+    align-items: start;
+    font-weight: normal;
+}
+
+.sidebarNavLinks {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.sidebarNavLinks:hover {
+    background-color:  rgba(128, 128, 128, 0.473);
+}
+
+.profileLink:hover{
+    cursor: default;
+    background-color: transparent;
+}
+
+.hrLine {
+    color: black;
+    border: 1.5px solid black;
+    width: 100%;
+    margin: 3px 0;
+}
+
+.logout {
+    color: red;
+    transition: background-color 0.3s ease;
+  }
+  
+  
